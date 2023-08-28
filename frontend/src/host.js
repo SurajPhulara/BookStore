@@ -1,3 +1,3 @@
-const host = "https://bookstore-79jw.onrender.com/"
+const host = "https://bookstore-6oe2.onrender.com/"
 
 export default host

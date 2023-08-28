@@ -15,7 +15,7 @@ const Favorites = () => {
     // Fetch user's favorite books from the server
     async function fetchFavoriteBooks() {
       try {
-        const response = await axios.get(`https://bookstore-79jw.onrender.com/api/books/my-favorites`, {
+        const response = await axios.get(`https://bookstore-6oe2.onrender.com/api/books/my-favorites`, {
           headers: {
             Authorization: `Bearer ${user.token}`,
           },

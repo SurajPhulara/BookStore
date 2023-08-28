@@ -16,7 +16,7 @@ const Login = () => {
 
     try {
       // Send a POST request to the server to perform login
-      const response = await axios.post('https://bookstore-79jw.onrender.com/api/auth/login', {
+      const response = await axios.post('https://bookstore-6oe2.onrender.com/api/auth/login', {
         username,
         password,
       });

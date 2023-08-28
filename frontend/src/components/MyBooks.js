@@ -15,7 +15,7 @@ const MyBooks = () => {
     // Fetch user's owned books from the server
     async function fetchMyBooks() {
       try {
-        const response = await axios.get('https://bookstore-79jw.onrender.com/api/books/my-books', {
+        const response = await axios.get('https://bookstore-6oe2.onrender.com/api/books/my-books', {
           headers: {
             Authorization: `Bearer ${user.token}`,
           },

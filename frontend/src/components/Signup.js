@@ -13,7 +13,7 @@ const Signup = () => {
 
     try {
       // Send a POST request to the server to perform user registration
-      await axios.post('https://bookstore-79jw.onrender.com/api/auth/signup', { username, password });
+      await axios.post('https://bookstore-6oe2.onrender.com/api/auth/signup', { username, password });
       // Navigate to the login page after successful signup
       navigate('/login');
     } catch (error) {

@@ -42,7 +42,7 @@ const BookCard = ({ book, fav }) => {
 
       // Update favorite status on the server
       await axios.post(
-        'https://bookstore-79jw.onrender.com/api/books/favorite',
+        'https://bookstore-6oe2.onrender.com/api/books/favorite',
         { bookId: book._id },
         {
           headers: {

@@ -20,7 +20,7 @@ function BookUpload() {
 
     try {
       // Send a POST request to the server to upload a new book
-      const response = await axios.post('https://bookstore-79jw.onrender.com/api/books/books', {
+      const response = await axios.post('https://bookstore-6oe2.onrender.com/api/books/books', {
         title,
         author,
         summary,

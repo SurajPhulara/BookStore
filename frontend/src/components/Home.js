@@ -17,7 +17,7 @@ const Home = () => {
     // Fetch all books on component mount
     async function fetchBooks() {
       try {
-        const response = await axios.get('https://bookstore-79jw.onrender.com/api/books/books');
+        const response = await axios.get('https://bookstore-6oe2.onrender.com/api/books/books');
         setBooks(response.data);
       } catch (error) {
         console.error(error);
@@ -30,7 +30,7 @@ const Home = () => {
   const handleFilterClick = async () => {
     try {
       // Fetch filtered books based on criteria
-      const response = await axios.get('https://bookstore-79jw.onrender.com/api/books/filtered-books', {
+      const response = await axios.get('https://bookstore-6oe2.onrender.com/api/books/filtered-books', {
         params: {
           searchTerm,
           filterGenre,
