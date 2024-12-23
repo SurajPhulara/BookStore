@@ -10,7 +10,7 @@ const port = process.env.PORT || 9000;
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://admin:admin@cluster0.46aoj1w.mongodb.net/', {
+mongoose.connect('mongodb+srv://admin:admin@cluster0.bxmvt.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
